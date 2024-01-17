@@ -8,4 +8,6 @@ jobs:
     steps:
     - name: say hello
       run: echo "Hello!"
+    - name: fail
+      run: false
 
